@@ -1,0 +1,44 @@
+body {
+    background: rgb(139, 203, 136);
+    font: 1em 'PT Sans', Tahoma, Arial;
+}
+
+#wrap {
+    perspective: 500px;
+    width: 500px;
+    height: 500px;
+}
+
+#myframe {
+    width: 350px;
+    height: 150px;
+}
+
+#container1 {
+    background: #ccc;
+    width: 350px;
+    height: 150px;
+    margin: 80px;
+    line-height: 150px;
+    text-align: center;
+    font: 1.2em;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    transform: translate(10px, 10px) rotate(10deg) scale(0.5);
+    transform-origin: bottom right;
+}
+
+#container2 {
+    background: #ccc;
+    width: 250px;
+    height: 150px;
+    margin: 80px;
+    line-height: 150px;
+    text-align: center;
+    font: 1.2em;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    transform: rotateY(80deg);
+}
